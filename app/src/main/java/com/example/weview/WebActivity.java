@@ -23,6 +23,8 @@ public class WebActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Web Page");
 
+        //comments
+
         String  getUrl=getIntent().getExtras().getString("url");
         web.setWebViewClient(new WebViewClient());
         web.getSettings().setJavaScriptEnabled(true);
